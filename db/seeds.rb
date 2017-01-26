@@ -11,6 +11,23 @@ movies = [
   {title:'The Help',release_date:'10-Aug-2011'},
   {title:'Raiders of the lost Ark',release_date:'12-Jun-1981'}
 ]
+
+actors = [
+  {name: "Angelina Jolie"},
+  {name: "Margot Robbie"}]
+directors = [
+  {name: "Mel Gibson"},
+  {name: "Quantin Tarantino"}
+]
+
 movies.each do |movie|
     Movie.create!(movie)
+end
+
+actors.each do |a|
+  Actor.create!(a)
+end
+
+directors.each do |a|
+  Director.create!(a)
 end
