@@ -16,8 +16,8 @@ actors = [
   {name: "Angelina Jolie"},
   {name: "Margot Robbie"}]
 directors = [
-  {name: "Mel Gibson"},
-  {name: "Quantin Tarantino"}
+  #{name: "Mel Gibson"},
+  #{name: "Quantin Tarantino"}
 ]
 
 movies.each do |movie|
