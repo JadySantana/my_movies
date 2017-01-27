@@ -13,11 +13,11 @@ movies = [
 ]
 
 actors = [
-  {name: "Angelina Jolie"},
-  {name: "Margot Robbie"}]
+  {name: "Angelina Jolie",gender: "female"},
+  {name: "Margot Robbie",gender: "male"}]
 directors = [
-  #{name: "Mel Gibson"},
-  #{name: "Quantin Tarantino"}
+  {name: "Mel Gibson",gender: "male"},
+  {name: "Quantin Tarantino",gender: "male"}
 ]
 
 movies.each do |movie|
