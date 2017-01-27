@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   get 'movies/new' => "movies#new"
 
+  post 'movies' => "movies#create"
   #get 'movies/show'
   get 'movies/:id' => "movies#show"
 
@@ -12,7 +13,7 @@ Rails.application.routes.draw do
 
   put 'movies/:id/' => "movies#update"
 
-  post 'movies/create'
+
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
